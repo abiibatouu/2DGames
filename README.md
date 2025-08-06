@@ -71,15 +71,16 @@ Ce projet a été conçu dans un but pédagogique afin d’apprendre à dévelop
 
 ---
 
-## 🧪 Lancer le jeu
+## 📁 Structure du projet
+2DGAMES/
+├── assets/             # Cartes, images, sons
+├── core/               # Code source principal
+│   └── src/...         # Écrans, logique, entités
+├── lwjgl3/             # Lancement desktop
+├── captures/           # Captures d’écran
+├── build.gradle        # Fichier de configuration Gradle
+├── README.md           # Ce fichier
+└── ...
+---
 
-### Option 1 : Depuis IntelliJ IDEA
-1. Ouvrir le projet
-2. Naviguer jusqu’à `core/src/.../My2DGames.java`
-3. Faire clic droit → `Run 'My2DGames.main()'`
-
-### Option 2 : Depuis le terminal
-
-```bash
-# À la racine du projet
-./gradlew desktop:run
+## 🎓 Projet réalisé avec passion et esprit d’équipe ❤️
