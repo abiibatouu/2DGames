@@ -73,13 +73,13 @@ Ce projet a été conçu dans un but pédagogique afin d’apprendre à dévelop
 
 ## 📁 Structure du projet
 2DGAMES/
--├── assets/             # Cartes, images, sons
--├── core/               # Code source principal
--│   └── src/...         # Écrans, logique, entités
--├── lwjgl3/             # Lancement desktop
--├── captures/           # Captures d’écran
--├── build.gradle        # Fichier de configuration Gradle
--├── README.md           # Ce fichier
+-assets/             # Cartes, images, sons
+- core/               # Code source principal
+-│ src/...         # Écrans, logique, entités
+- lwjgl3/             # Lancement desktop
+- captures/           # Captures d’écran
+- build.gradle        # Fichier de configuration Gradle
+- README.md           # Ce fichier
 -└── ...
 ---
 
