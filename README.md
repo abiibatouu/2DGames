@@ -1,72 +1,85 @@
-# 🎮 2Days Game
+# 🎮 2Days – Jeu 2D avec LibGDX
 
-> Projet réalisé en janvier 2025 dans le cadre du cours de Programmation et Conception Orientée Objet (PCOO) à l’Université Côte d’Azur.
-
-## 🧑‍💻 Équipe
-
-- **Abibatou NDIAYE** : Développement du moteur de gameplay, interfaces utilisateur (menus, transitions).
-- **Fania TAHAR ABDALLAH** : Intégration avec Tiled, gestion des niveaux, gestion des collisions.
+> 👩🏽‍💻 Projet de fin d’études – Université Sidi Mohamed Ben Abdellah (2024)  
+> ✨ Réalisé par : **Abibatou NDIAYE** & **Fania TAHAR ABDALLAH**
 
 ---
 
-## 🧠 Objectif du projet
+## 📌 Présentation
 
-Développer un moteur de jeu 2D extensible en Java à l’aide de **LibGDX**, permettant de gérer :
-- Des niveaux dynamiques créés via **Tiled**
-- Des collisions, obstacles, bombes et pièces
-- Une interface utilisateur intuitive
-- Une extensibilité rapide pour l’ajout de contenu
+**2Days** est un jeu vidéo en 2D développé en Java avec le framework **LibGDX**.  
+Le joueur incarne un personnage qui doit collecter des pièces tout en évitant des **bombes mortelles** et des **obstacles**.  
+Une collision avec une bombe entraîne une défaite immédiate.
+
+Ce projet a été conçu dans un but pédagogique afin d’apprendre à développer un moteur de jeu extensible, structuré selon le modèle **MVC**, tout en exploitant des outils modernes comme **Tiled**.
+
+---
+
+## 🎯 Objectifs pédagogiques
+
+- Concevoir un **moteur de jeu 2D extensible**
+- Créer des niveaux dynamiques avec **Tiled**
+- Implémenter une interface utilisateur complète (menu, transitions, Game Over)
+- Gérer les collisions, le score et la progression dans le jeu
+- Faciliter l’ajout de contenus sans modifier le code source
 
 ---
 
 ## 🧰 Technologies utilisées
 
-- **Java 8**
-- **LibGDX**
-- **Tiled** (.tmx maps)
-- **IntelliJ IDEA**
-- **Gradle**
-- **Git / GitHub**
+| Outil / Technologie | Rôle |
+|---------------------|------|
+| [Java 8+](https://www.oracle.com/java/) | Langage de développement |
+| [LibGDX](https://libgdx.com) | Moteur de jeu 2D |
+| [Tiled](https://www.mapeditor.org/) | Conception des cartes (.tmx) |
+| IntelliJ IDEA | IDE de développement |
+| Gradle | Gestionnaire de build |
+| Git / GitHub | Versioning & travail collaboratif |
 
 ---
 
-## 🚀 Fonctionnalités
+## 🔍 Fonctionnalités principales
 
-### 🎮 Contrôle du joueur
-- Déplacement via touches fléchées
-- Collision avec obstacles
-- Interaction avec pièces et bombes
-
-### 💣 Bombes et pièces
-- Génération aléatoire
-- Gestion de collisions (défaite immédiate)
-
-### 🗺️ Niveaux & obstacles
-- Création dans Tiled
-- Chargement dynamique via moteur de jeu
-
-### 🧩 Interfaces utilisateur
-- Écran de démarrage
-- Écran de transition
-- Écran "Game Over"
+- 🎮 **Contrôle du joueur** via les touches fléchées
+- 💥 **Gestion des bombes** (collision = Game Over)
+- 🪙 **Collecte des pièces** (score et progression)
+- 🧱 **Obstacles configurés dans Tiled**
+- 📈 **Transitions dynamiques entre les niveaux**
+- 🧩 **Interface utilisateur immersive** (menus, transitions, écran de fin)
+- 📦 **Chargement automatique des cartes et objets via fichiers `.tmx`**
 
 ---
 
 ## 📸 Captures d’écran
 
-| Menu principal | Écran de jeu | Prototype initial |
-|----------------|--------------|-------------------|
-| ![menu](captures/menu.png) | ![game](captures/jeu.png) | ![proto](captures/prototype.png) |
+### Menu principal  
+![Menu principal](captures/menu.png)
 
-> 💡 Les captures se trouvent dans le dossier `captures/` du projet.
+### Écran de jeu  
+![Jeu](captures/jeu.png)
+
+### Prototype initial  
+![Prototype](captures/prototype.png)
+
+> 📁 Les images sont stockées dans le dossier `captures/`.
 
 ---
 
-## 🎥 Démo vidéo
+## 🎥 Démonstration vidéo
 
-📺 [Voir la démonstration du jeu](https://youtu.be/LIEN_DE_LA_VIDEO)
+📺 [Clique ici pour voir la démo sur YouTube](https://LIEN_VERS_LA_VIDEO)
 
 ---
 
-## 📁 Structure du projet
+## 🧪 Lancer le jeu
 
+### Option 1 : Depuis IntelliJ IDEA
+1. Ouvrir le projet
+2. Naviguer jusqu’à `core/src/.../My2DGames.java`
+3. Faire clic droit → `Run 'My2DGames.main()'`
+
+### Option 2 : Depuis le terminal
+
+```bash
+# À la racine du projet
+./gradlew desktop:run
