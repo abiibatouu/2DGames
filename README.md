@@ -67,7 +67,7 @@ Ce projet a été conçu dans un but pédagogique afin d’apprendre à dévelop
 
 ## 🎥 Démonstration vidéo
 
-📺 [Clique ici pour voir la démo sur YouTube](https://LIEN_VERS_LA_VIDEO)
+📺 [Clique ici pour voir la démo](https://drive.google.com/file/d/1C74GYKWgRWgrFeRgJTI863rkt8aiwVLv/view?usp=drivesdk )
 
 ---
 
